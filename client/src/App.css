@@ -1,0 +1,90 @@
+/* src/styles/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container, .create-form-container, .view-form-container, .responses-container {
+  padding: 20px;
+}
+
+.create-form-button, .view-responses-button {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.create-form-button:hover, .view-responses-button:hover {
+  background-color: #0056b3;
+}
+
+.form-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.form-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-card a:hover {
+  text-decoration: underline;
+}
+
+.field-inputs {
+  margin-bottom: 20px;
+}
+
+.field-inputs input, .field-inputs select {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.field-inputs label {
+  margin-right: 10px;
+}
+
+.form-preview {
+  margin-bottom: 20px;
+}
+
+.form-preview div {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

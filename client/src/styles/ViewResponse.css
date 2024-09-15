@@ -1,0 +1,41 @@
+/* src/styles/ResponsePage.css */
+.response-page-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .response-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .response-table th,
+  .response-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .response-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .response-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .response-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .response-table td {
+    font-size: 16px;
+  }
+  
